@@ -4,7 +4,18 @@ function esEntero(num) {
   // Ejemplo: 1     ---> true
   // Ejemplo: (-10) ---> true
   // De lo contrario, retorna false.
-  // Tu código:
+  let cadena = '' + num;
+  let tamano = cadena.length;
+  let n = 0;
+  while (n != tamano){
+    n = n + 1;
+    if (cadena.substring(n-1, n) === '.') return false;
+  }
+  return true;
 }
+console.log(esEntero(12.568));
+console.log(esEntero(128));
+console.log(esEntero(-10));
+console.log(esEntero(0));
 
 module.exports = esEntero;

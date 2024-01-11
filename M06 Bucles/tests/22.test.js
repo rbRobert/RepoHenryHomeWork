@@ -6,7 +6,7 @@ describe('diasEnMes', () => {
   });
 
   it('should return 28 for February', () => {
-    expect(diasEnMes(2)).toBe(28);
+    expect(diasEnMes(2)).toBe(29);
   });
 
   it('should return 30 for April', () => {

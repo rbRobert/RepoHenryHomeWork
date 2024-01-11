@@ -1,7 +1,8 @@
 function devolverString(string) {
   // La función recibe un argumento "string".
   // Debe retornar dicho string.
-  // Tu código:
+  var cadena = string;
+  return string;
 }
-
+console.log('Palabra');
 module.exports = devolverString;

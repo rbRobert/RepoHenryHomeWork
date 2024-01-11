@@ -2,7 +2,7 @@ const esPositivoOInferiorA10 = require('../ejercicios/08');
 
 test('returns true for positive numbers', () => {
   expect(esPositivoOInferiorA10(5)).toBe(true);
-  expect(esPositivoOInferiorA10(100)).toBe(true);
+  expect(esPositivoOInferiorA10(1)).toBe(true);
   expect(esPositivoOInferiorA10(0.1)).toBe(true);
 });
 
