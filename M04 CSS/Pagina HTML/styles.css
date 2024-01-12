@@ -1,0 +1,63 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #dad2d2;
+  color: #635959;
+  margin: 20px;
+}
+
+.title {
+  font-size: 4em;
+  color: rgb(19, 32, 216);
+  margin: auto;
+}
+
+.menu {
+  margin: auto;
+}
+
+.menu:hover, a:hover { 
+  color: rgb(16, 134, 75);
+  font-weight: 900;  
+}
+
+.imagenPC {
+  /*border: 2px solid black;*/
+  margin: 30px 0px 30px 0px;
+}
+
+a {
+  text-decoration: none; /* Eliminar el subrayado predeterminado del enlace */
+  color: rgb(27, 173, 100);
+}
+
+.contacto {
+  font-size: 2em;
+  font-weight: 600; 
+}
+
+#imagenPC {
+  width: 30%;
+  height: 30%;
+}
+
+#contenedor {
+  font-size: 2em;
+  font-weight: 600;  
+  margin: 4px 4px 4px 0px;  /* arriba derecha abajo izquierda */
+  /*margin: 3em 3em 3em 0em; */
+  padding: auto;
+  width: 35%;
+  display: flex;
+  flex-direction: row; 
+}
+
+#titulos {
+  font-size: 1em;
+  width: 60%; 
+  margin: auto;
+  padding: 1em;
+  display: flex;
+  flex-direction: column; 
+  align-items: center; 
+}
+
