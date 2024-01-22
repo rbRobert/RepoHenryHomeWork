@@ -8,8 +8,8 @@ test("adds a new property to the object", () => {
 
 test("returns the modified object", () => {
   const obj = { name: "John", age: 30 };
-  const result = agregarNuevaPropiedad(obj, "city", "New York");
-  expect(result).toEqual({ name: "John", age: 30, city: "New York" });
+  const result = agregarNuevaPropiedad(obj, "city", "Arkansas");
+  expect(result).toEqual({ name: "John", age: 30, city: "Arkansas" });
 });
 
 test("adds a new property with a boolean value", () => {

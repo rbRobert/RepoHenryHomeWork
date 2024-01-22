@@ -14,11 +14,11 @@ function esPalindromo(string) {
     return false;
   }
 }
-// console.log(esPalindromo('reconocer'));
-// console.log(esPalindromo('salas'));
-// console.log(esPalindromo('acurruca'));
-// console.log(esPalindromo('A man, a plan, a canal. Panama'));
-// console.log(esPalindromo('A man a plan a canal Panama'));
+console.log(esPalindromo('reconocer'));
+console.log(esPalindromo('salas'));
+console.log(esPalindromo('acurruca'));
+console.log(esPalindromo('A man, a plan, a canal. Panama'));
+console.log(esPalindromo('A man a plan a canal Panama'));
 console.log(esPalindromo('departamentos'));
 
 module.exports = esPalindromo;

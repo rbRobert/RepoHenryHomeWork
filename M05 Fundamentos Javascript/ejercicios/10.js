@@ -7,14 +7,22 @@ function esFechaValida(fecha) {
   // } else {
   //   return false
   // }
-  if (fecha instanceof Date) {
+  var hoy = new Date();
+  if (hoy >= fecha){
+    console.log('hoy: ' + hoy);
+    console.log('fecha: ' + fecha);
+    return true
+  } else {
+    return false
+  }
+/*   if (fecha instanceof Date) {
     const tiempoEnMilisegundos = fecha.getTime();
     console.log("tiempoEnMilisegundos: " + tiempoEnMilisegundos);
     if (!isNaN(tiempoEnMilisegundos)) { // isNaN() metodo que valida que no sea numerico
       return true;
     }
   }
-  return false;
+  return false; */
 }
 
 console.log(esFechaValida(new Date("2023-12-10"))); // true
